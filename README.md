@@ -25,18 +25,26 @@ Freebase: A large-scale knowledge graph developed by Google.
 
 ## Steps of Implementation : 
 
-**1. Import necessary libraries
+ ** 1. Import necessary libraries
+
   2. Load the data ( As a source we considered Wikipedia page of New York
+     
   3. Preprocess the data ( convert to lowercase and use regular expression to remove unnecessary patterns)
+     
   4. Recognize Named Entities (Named entities are specific real-world objects or concepts mentioned in text, such as people, places, organizations, and dates.)
+     
   5. Compute coreference clusters( Coreference clusters are groups of words or phrases that refer to the same real-world entity within a text. They are essential for understanding the underlying semantic structure of a 
   text and resolving ambiguities that may arise due to the use of pronouns, synonyms, or other forms of anaphora.For example, in the sentence "John went to the store. He bought some milk.", "John" and "he" refer to the 
   same person and form a coreference cluster.)
-  6. Resolve Coreference ( Coreference resolution is essential for understanding the underlying semantic structure of a text and resolving ambiguities that may arise due to the use of pronouns, synonyms, or other forms of 
-  anaphora.For example, consider the sentence "John went to the store. He bought some milk." Without coreference resolution, it might be difficult to understand that "he" refers to "John." By identifying this coreference 
-  relationship, we can better understand the meaning of the sentence and the actions of the individual involved.)
+
+  6. Resolve Coreference ( Coreference resolution is essential for understanding the underlying semantic structure of a text and resolving ambiguities that may arise due to the use of pronouns, synonyms, or other forms 
+  of anaphora.For example, consider the sentence "John went to the store. He bought some milk." Without coreference resolution, it might be difficult to understand that "he" refers to "John." By identifying this 
+  coreference relationship, we can better understand the meaning of the sentence and the actions of the individual involved.)
+
   7. Extract relationship
+    
   8. Create a Graph
+      
   9. List the related entities**
 
 
