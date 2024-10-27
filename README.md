@@ -20,7 +20,9 @@ Data Integration: Knowledge graphs can be used to integrate data from multiple s
 Examples of knowledge graphs:
 
 Google Knowledge Graph: Used by Google Search to provide more informative and relevant search results.
+
 DBpedia: A knowledge graph extracted from Wikipedia data.
+
 Freebase: A large-scale knowledge graph developed by Google.
 
 ## Steps of Implementation : 
